@@ -10,3 +10,5 @@ As such I have created this repo to help myself go through the process and bette
 You can also try the problems here and provide feedback on solutions
 
 Thank you.
+
+Note: Problems are from => https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php
