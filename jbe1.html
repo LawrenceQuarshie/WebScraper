@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+    </body>
+    <script>
+        var today = new Date();
+
+        // Getting the name of today
+        let weekDayIndex = today.getDay();
+        let listOfDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        let weekDay = listOfDays[weekDayIndex];
+
+        // Getting the hour of today
+        let actualHours = today.getHours();
+
+        function hoursOfDay() {
+            if (actualHours >= 12) {
+                return (actualHours - 12 + " PM");
+            } else {
+                return (actualHours + " AM");
+            }
+        }
+
+        let hours  = hoursOfDay();
+
+        // Getting the minutes of the day
+        let minutes = today.getMinutes();
+
+        // Getting the seconds of the day
+        let seconds = today.getSeconds();
+
+        console.log("Today is: " + weekDay);
+        console.log("Current Time: " + hours + " : " + minutes + " : " + seconds);
+    </script>
+</html>
