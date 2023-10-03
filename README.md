@@ -1,14 +1,3 @@
-# Solved JavaScript Data Structures and Algorithms Problems
+# Web Scraper for Getting Data from any Website
 
-Hello All,
-In my journey of learning how to code, I had difficulties solving challenges.
-
-I could develop websites, webapps and all but couldn't solve data structures and algorithm problems.
-
-As such I have created this repo to help myself go through the process and better myself.
-
-You can also try the problems here and provide feedback on solutions
-
-Thank you.
-
-Note: Problems are from => https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php
+This repository contains a web scraper built with Python and Microsoft Playwright
